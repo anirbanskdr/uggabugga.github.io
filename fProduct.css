@@ -1,0 +1,336 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    background: url("pexels-lucie-liz-3165335.jpg");
+    height: 100vh;
+    width: 100vw;
+
+}
+.floatingName{
+    width: 100vw;
+    display: inline;
+    position: relative;
+    top: 26px;
+    font-family:fantasy;
+    font-size: xx-large;
+}
+
+
+/* here starts the left side */
+.left{
+   
+    background-color: rgb(147, 16, 203);
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    left: 35px;
+    border-radius: 30px;
+}
+.lnavbar li{
+    display: inline;
+}
+.lnavbar li a{
+   text-decoration: none;
+   padding: 20px 20px ;
+   font: bold;
+   color:antiquewhite;
+   font-size: 16px;
+
+}
+.lnavbar li a:hover{
+    color: mediumvioletred;
+}
+.lnavbar li a.active {
+    color: mediumaquamarine;
+}
+
+   /* here start the right side  */
+
+.right{
+    
+    /* background-color: rgb(147, 16, 203); */
+    display: inline-block;
+    position: absolute;
+    top: 90px;
+    right: 35px;
+    border-radius: 30px;
+}
+.right li img{
+    width: 40px;
+    height: 40px;
+    border-radius: 32px;
+    object-fit: cover;
+    padding: 0%;
+    
+}
+.rnavbar li{
+  display: inline-block;
+}
+
+.maP{
+    margin: auto;
+    color: cyan;
+    font-family: cursive;
+    padding-right: 24px ;
+    position: relative;
+    top: -10px;
+    right: 30px;
+    font-size: x-large;
+}
+
+/* contact */
+.container{
+    display: inline-block;
+    position: absolute;
+    top: 180px;
+    left: 525px;
+    margin: auto;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    padding: 10px;
+    color: goldenrod;
+    
+    
+}
+.con1{
+    text-align: center;
+    display: block;
+    width: -34px;
+    padding: 10px;
+    margin: auto;
+    color: beige;
+    text-shadow: 15px;
+   
+}
+.btn{
+    text-align: center;
+    display: block;
+    width: 188px;
+    padding: 4px;
+    margin: auto;
+    background-color: crimson;
+    border: none;
+    border-radius: 30px;
+}
+.contactMe{
+    display: inline-block;
+    position: absolute;
+    top: 580px;
+    left: 725px;
+    padding: 5px;
+    margin: 5px;
+}
+.contactMe li{
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic
+} 
+.btn2{
+    background-color: aquamarine;
+}   
+
+/* social */
+
+.sIcons{
+    list-style-type: none;
+    position: absolute;
+    top: 50%;
+    left: 500px;
+}
+.iconList{
+    display: inline;
+    
+}
+.sIcons li{
+    display: inline;
+    padding: 2mm;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  .marker{
+    
+    list-style: none;
+   
+  }
+  
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+/* games */
+
+.valorant{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* underline not going */
+    text-decoration: none !important; 
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    color: white;
+    display: grid;
+  }
+  
+  .logo {
+    width: 200px;
+    height: 200px;
+    align-self: end;
+  } 
+        .first {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ff4654;
+        clip-path: polygon(0 10%, 70% 90%, 35% 90%, 0 50%);
+        }
+    
+        .second {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background-color: #ff4654;
+        clip-path: polygon(100% 10%, 100% 50%, 88% 65%, 55% 65%);
+        }
+
+  
+  h1 {
+    align-self: start;
+    text-align: center;
+  }
+  .bruh{
+    position: relative;
+    left: -375px;
+    top: -65px;
+    text-decoration: none !important;
+    font-family: Tungsten-Bold,arial,georgia,sans-serif;
+    color: white;
+  }
+  .genshin{
+    position: relative;
+    display: inline-block;
+    top: -290px;
+    left: 278px;
+
+  }
+
+  /* home */
+
+  .H1{
+    display: inline-block;
+    font-size: 100px;
+    position: relative;
+    left: 140px;
+    top: 160px;
+    font-family: cursive;
+    color: aquamarine;
+  }
+  .P1{
+    display: inline-block;
+    position: relative;
+    font-size: x-large;
+    top: 270px;
+    left: 150px;
+    font-family: 'IBM Plex Serif', serif;
+    
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+  
+  }
+  
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+      
+  
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 767px) {
+   
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (max-width : 480px) {
+    .sIcons li{
+        
+        padding: 2mm;
+    }
+      
+  
+  }
+  
+  /* Custom, iPhone Retina */ 
+  @media only screen and (max-width : 320px) {
+    
+  }
+  
+  /* Extra Small Devices, Phones */ 
+  @media only screen and (min-width : 480px) {
+    
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+      /* Make Navigation Toggle on Desktop Hover (use class: dropdown-hover) */
+    
+  }
+    
